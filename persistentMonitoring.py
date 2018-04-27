@@ -31,6 +31,7 @@ while i == 0:
 			search9 = lines.find('mail.aba.ae')
 			search10 = lines.find('104.31.93.36')
 			search11 = lines.find('104.31.92.36')
+			search12 = lines.find('ec2-52-57-80-78')
 									
 			if search != -1:
 				QMessageBox.information(None, 'Persistent Monitoring (NotMINING.org)', u'Mining with Coinhive',
@@ -80,6 +81,10 @@ while i == 0:
 				QMessageBox.information(None, 'Persistent Monitoring (NotMINING.org)', u'Mining with crypta-loot.com',
 				QMessageBox.Ok,
 				QMessageBox.Ok)
-			
+			elif search12 != -1:
+				QMessageBox.information(None, 'Persistent Monitoring (NotMINING.org)', u'Mining with webminerpool.com',
+				QMessageBox.Ok,
+				QMessageBox.Ok)
 									
 			time.sleep( 10 )
+
