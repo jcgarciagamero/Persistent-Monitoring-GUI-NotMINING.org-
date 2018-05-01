@@ -40,6 +40,9 @@ while i == 0:
 			search18 = lines.find('188.166.33.242')			
 			search19 = lines.find('178.62.227.52')	 		
 			search20 = lines.find('104.18.46.158')
+			search21 = lines.find('104.27.152.155')
+			search22 = lines.find('104.18.54.211')
+			search23 = lines.find('crypto-webminer')
 
 			if search != -1:
 				QMessageBox.information(None, 'Persistent Monitoring (NotMINING.org)', u'Mining with Coinhive',
@@ -125,5 +128,17 @@ while i == 0:
 				QMessageBox.information(None, 'Persistent Monitoring (NotMINING.org)', u'Mining with: coin-have.com',
 				QMessageBox.Ok,
 				QMessageBox.Ok)
-									
+			elif search21 != -1:
+				QMessageBox.information(None, 'Persistent Monitoring (NotMINING.org)', u'Mining with: 1q2w3.website',
+				QMessageBox.Ok,
+				QMessageBox.Ok)
+			elif search22 != -1:
+				QMessageBox.information(None, 'Persistent Monitoring (NotMINING.org)', u'Mining with aster18cdn.nl',
+				QMessageBox.Ok,
+				QMessageBox.Ok)
+			elif search23 != -1:
+				QMessageBox.information(None, 'Persistent Monitoring (NotMINING.org)', u'Mining with eth-pocket.de',
+				QMessageBox.Ok,
+				QMessageBox.Ok)	
+
 			time.sleep( 10 )
