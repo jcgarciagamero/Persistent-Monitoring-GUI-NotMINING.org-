@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-ç
-#Version: 0.0.3
+#Version: 0.0.4
 
 import urllib
 import psutil
@@ -45,6 +45,7 @@ while i == 0:
 			search21 = lines.find('104.27.152.155')
 			search22 = lines.find('104.18.54.211')
 			search23 = lines.find('crypto-webminer')
+			search24 = lines.find('104.28.16.102')
 
 			if search != -1:
 				QMessageBox.information(None, 'Persistent Monitoring (NotMINING.org)', u'Mining with Coinhive',
@@ -142,5 +143,9 @@ while i == 0:
 				QMessageBox.information(None, 'Persistent Monitoring (NotMINING.org)', u'Mining with eth-pocket.de',
 				QMessageBox.Ok,
 				QMessageBox.Ok)	
+			elif search24 != -1:
+				QMessageBox.information(None, 'Persistent Monitoring (NotMINING.org)', u'Mining with tulip18.com/amo.js',
+				QMessageBox.Ok,
+				QMessageBox.Ok)
 
 			time.sleep( 10 )
