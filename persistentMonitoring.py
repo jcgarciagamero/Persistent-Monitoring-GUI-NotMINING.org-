@@ -46,8 +46,8 @@ while i == 0:
 			search22 = lines.find('104.18.54.211')
 			search23 = lines.find('crypto-webminer')
 			search24 = lines.find('104.28.16.102')
-			search41 = lines.find('145.239.252.74')
-			search42 = lines.find('54.37.87.37')
+			search25 = lines.find('145.239.252.74')
+			search26 = lines.find('54.37.87.37')
 
 			if search != -1:
 				QMessageBox.information(None, 'Persistent Monitoring (NotMINING.org)', u'Mining with Coinhive',
