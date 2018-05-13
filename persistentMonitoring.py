@@ -150,11 +150,11 @@ while i == 0:
 				QMessageBox.Ok,
 				QMessageBox.Ok)
 			elif search25 != -1:
-				QMessageBox.information(None, 'Persistent Monitoring (NotMINING.org)', u'Mining s2.skencituer.com',
+				QMessageBox.information(None, 'Persistent Monitoring (NotMINING.org)', u'Mining with mineralt.io',
 				QMessageBox.Ok,
 				QMessageBox.Ok)
 			elif search26 != -1:
-				QMessageBox.information(None, 'Persistent Monitoring (NotMINING.org)', u'Mining s3.skencituer.com',
+				QMessageBox.information(None, 'Persistent Monitoring (NotMINING.org)', u'Mining with mineralt.io',
 				QMessageBox.Ok,
 				QMessageBox.Ok)
 
