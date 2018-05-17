@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-ç
-#Version: 0.0.5
+#Version: 0.0.6
 
 import urllib
 import psutil
@@ -48,6 +48,8 @@ while i == 0:
 			search24 = lines.find('104.28.16.102')
 			search25 = lines.find('ns3083487.ip-145')
 			search26 = lines.find('ns3104461.ip-54')
+			search27 = lines.find('185.80.53.183')
+			search28 = lines.find('188.42.240.146')
 
 			if search != -1:
 				QMessageBox.information(None, 'Persistent Monitoring (NotMINING.org)', u'Mining with Coinhive',
@@ -150,12 +152,21 @@ while i == 0:
 				QMessageBox.Ok,
 				QMessageBox.Ok)
 			elif search25 != -1:
-				QMessageBox.information(None, 'Persistent Monitoring (NotMINING.org)', u'Mining with mineralt.io',
+				QMessageBox.information(None, 'Persistent Monitoring (NotMINING.org)', u'Mining s2.skencituer.com',
 				QMessageBox.Ok,
 				QMessageBox.Ok)
 			elif search26 != -1:
-				QMessageBox.information(None, 'Persistent Monitoring (NotMINING.org)', u'Mining with mineralt.io',
+				QMessageBox.information(None, 'Persistent Monitoring (NotMINING.org)', u'Mining s3.skencituer.com',
+				QMessageBox.Ok,
+				QMessageBox.Ok)
+			elif search27 != -1:
+				QMessageBox.information(None, 'Persistent Monitoring (NotMINING.org)', u'Mining with coincube.io',
+				QMessageBox.Ok,
+				QMessageBox.Ok)
+			elif search28 != -1:
+				QMessageBox.information(None, 'Persistent Monitoring (NotMINING.org)', u'Mining with coincube.io',
 				QMessageBox.Ok,
 				QMessageBox.Ok)
 
+			os.system('rm -rf net.html')
 			time.sleep( 10 )
