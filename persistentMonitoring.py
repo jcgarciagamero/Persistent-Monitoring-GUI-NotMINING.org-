@@ -51,6 +51,7 @@ while i == 0:
 			search27 = lines.find('185.80.53.183')
 			search28 = lines.find('188.42.240.146')
 			search29 = lines.find('165.227.10.77')
+			search30 = lines.find('207.246.117.237')
 
 			if search != -1:
 				QMessageBox.information(None, 'Persistent Monitoring (NotMINING.org)', u'Mining with Coinhive',
@@ -170,6 +171,10 @@ while i == 0:
 				QMessageBox.Ok) 
 			elif search29 != -1:
 				QMessageBox.information(None, 'Persistent Monitoring (NotMINING.org)', u'Mining with munero.me',
+				QMessageBox.Ok,
+				QMessageBox.Ok)
+			elif search30 != -1:
+				QMessageBox.information(None, 'Persistent Monitoring (NotMINING.org)', u'Mining with mb.sentemanactri.com',
 				QMessageBox.Ok,
 				QMessageBox.Ok)
 
