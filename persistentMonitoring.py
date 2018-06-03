@@ -179,7 +179,7 @@ while i == 0:
 				QMessageBox.Ok,
 				QMessageBox.Ok)
 			elif search31 != -1:
-				QMessageBox.information(None, 'Persistent Monitoring (NotMINING.org)', u'Mining with mb.sentemanactri.com',
+				QMessageBox.information(None, 'Persistent Monitoring (NotMINING.org)', u'Mining with polskota.club',
 				QMessageBox.Ok,
 				QMessageBox.Ok)
 
